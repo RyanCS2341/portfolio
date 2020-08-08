@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import pdf from '../pdf/resume_2020.PDF'
 class Navbar extends React.Component {
   render() {
     let data = this.props.data;
@@ -12,7 +13,7 @@ class Navbar extends React.Component {
                   <a href="#particles-js" className="nav-link">Home</a>
                   <a href="#about" className="nav-link">About</a>
                   <a href="#projects" className="nav-link">Projects</a>
-                  <a href="/assests/resume_2020.pdf" className="nav-link" target="_blank">Resume</a>
+                  <a href={pdf} className="nav-link" target="_blank">Resume</a>
                 </div>
               </div>
             </div>
