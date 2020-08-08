@@ -266,6 +266,7 @@ code {
 @media (max-width: 768px) {
 	.main-message {
 		width: 75%;
+		font-size: 62px;
 	}
 }
 
