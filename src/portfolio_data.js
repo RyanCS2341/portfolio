@@ -21,8 +21,8 @@ let data = {
         {
             alt_name: 'Twitter',
             icon_url: '',
-            link_url: 'https://twitter.com/Ryans2341',
-            class_name: 'fa fa-twitter',
+            link_url: 'mailto:stanfieldrcs@gmail.com',
+            class_name: 'fa fa-send-o',
             bg_color: '#15202b'
         }
     ],
