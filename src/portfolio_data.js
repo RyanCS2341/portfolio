@@ -56,6 +56,17 @@ let data = {
             technologies: [
                 ''
             ]
+        },
+        ,
+        {
+            name: 'Contact Manager',
+            demo_url: '',
+            source_code_url: '',
+            img_url: '/assests/contact.png',
+            description: '',
+            technologies: [
+                ''
+            ]
         }
     ]
 }
