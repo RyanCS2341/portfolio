@@ -199,6 +199,7 @@ a:focus {
 	height: 45px;
 	width: 175px;
 	text-decoration: none;
+	padding: 10px;
 }
 
 .view-projects:hover {
@@ -257,6 +258,10 @@ a:focus {
   color: #4e4e4e;
 }
 
+.hidden {
+	display: none;
+}
+
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
@@ -266,7 +271,10 @@ code {
 @media (max-width: 768px) {
 	.main-message {
 		width: 75%;
-		font-size: 62px;
+		font-size: 48px;
+	}
+	.secondary-message {
+		font-size: 32px;
 	}
 }
 
