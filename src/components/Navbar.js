@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import pdf from '../pdf/resume_2020.PDF'
+import pdf from '../pdf/resume_2020.pdf'
 class Navbar extends React.Component {
   render() {
     let data = this.props.data;
